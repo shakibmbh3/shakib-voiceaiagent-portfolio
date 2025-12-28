@@ -36,9 +36,9 @@ export const Contact: React.FC = () => {
 
           <a 
             href="mailto:shakibmbh3@gmail.com"
-            className="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white transition-all bg-emerald-600 rounded-full hover:bg-emerald-700 hover:shadow-lg hover:shadow-emerald-200"
+            className="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white transition-all bg-emerald-600 rounded-full hover:bg-emerald-700 shadow-lg hover:shadow-emerald-200 hover:-translate-y-0.5"
           >
-            Discuss Your Use Case
+            Discuss Your Voice AI Use Case
           </a>
         </div>
         

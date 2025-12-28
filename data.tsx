@@ -11,12 +11,12 @@ import { CaseStudy, Service, ProcessStep, TechItem, WhyChooseItem } from "./type
 export const services: Service[] = [
   {
     title: "AI Voice Agents",
-    description: "Human-sounding agents that answer, call back, qualify leads, and book appointments. Inbound & Outbound capable.",
+    description: "Never miss calls. Qualify leads. Book appointments automatically.",
     icon: PhoneCall,
   },
   {
     title: "Call Flow Logic",
-    description: "Custom qualification, objections, routing, and hand-offs — designed strictly from your real business rules.",
+    description: "Custom qualification, objections, routing, and hand-offs based on real business rules.",
     icon: GitBranch,
   },
   {
@@ -26,17 +26,17 @@ export const services: Service[] = [
   },
   {
     title: "Advanced Automation",
-    description: "Multi-step workflows via Make/Zapier with conditional logic, retries, and comprehensive error handling.",
+    description: "Multi-step Make.com and Zapier workflows with conditional logic and retries.",
     icon: Zap,
   },
   {
     title: "APIs & Webhooks",
-    description: "Clean JSON payloads, REST API integrations, and real-time call data capture.",
+    description: "Clean REST APIs, JSON payloads, and real-time call data capture.",
     icon: Server,
   },
   {
     title: "Multilingual Setup",
-    description: "Support for multiple languages and smart human transfer escalation when complex needs arise.",
+    description: "Support multiple languages with smart human transfer when needed.",
     icon: Globe,
   },
 ];
@@ -76,7 +76,7 @@ export const techStack: TechItem[] = [
   },
   {
     category: "Automation",
-    tools: "Make.com · Zapier · n8n · Webhooks",
+    tools: "Make.com · n8n · Zapier · Webhooks",
   },
   {
     category: "APIs & Data",
@@ -84,7 +84,7 @@ export const techStack: TechItem[] = [
   },
   {
     category: "CRMs & Scheduling",
-    tools: "GoHighLevel · HubSpot · Salesforce · G-Cal",
+    tools: "GoHighLevel · HubSpot · Salesforce · GCal",
   },
   {
     category: "Scripting",
@@ -97,6 +97,7 @@ export const caseStudies: CaseStudy[] = [
     id: "dental",
     title: "Dental Clinic Automation",
     category: "Appointment Automation",
+    summary: "Reduced front-desk workload and captured appointments 24/7.",
     problem: "High call volume. Missed calls. Staff overloaded with scheduling and FAQs.",
     solution: "Built an AI voice agent that manages the full appointment lifecycle.",
     keyCapabilities: [
@@ -112,6 +113,7 @@ export const caseStudies: CaseStudy[] = [
     id: "plumbing",
     title: "Plumbing Service Dispatch",
     category: "Lead Qualification",
+    summary: "Faster emergency routing and higher-quality booked jobs.",
     problem: "Unqualified calls, emergency vs non-emergency confusion, slow follow-ups.",
     solution: "Outbound + inbound voice agent focused on lead qualification and routing.",
     keyCapabilities: [
@@ -127,6 +129,7 @@ export const caseStudies: CaseStudy[] = [
     id: "cancer",
     title: "Cancer Screening Center",
     category: "Sensitive Handling",
+    summary: "Consistent screening with accuracy, empathy, and human escalation.",
     problem: "High-stakes conversations requiring accuracy, empathy, and structured screening.",
     solution: "Voice agent designed for eligibility screening and appointment booking.",
     keyCapabilities: [
@@ -142,6 +145,7 @@ export const caseStudies: CaseStudy[] = [
     id: "restaurant",
     title: "Restaurant Reservations",
     category: "Call Volume",
+    summary: "Fewer missed calls and smoother front-of-house operations.",
     problem: "Staff overwhelmed by reservation calls and repeated questions.",
     solution: "Inbound voice agent optimized for speed and clarity.",
     keyCapabilities: [
@@ -160,19 +164,19 @@ export const whyMe: WhyChooseItem[] = [
     description: "Every agent is built from real business rules — not reused templates."
   },
   {
-    title: "Production Ready",
+    title: "Production-Ready",
     description: "Designed for live traffic, real customers, and edge cases."
   },
   {
     title: "Clean CRM Data",
-    description: "Structured call data your sales and ops teams can actually use."
+    description: "Structured call data sales and ops teams can actually use."
   },
   {
     title: "Scalable",
     description: "Reusable flows with clear documentation for easy cloning."
   },
   {
-    title: "Outcome Focused",
+    title: "Outcome-Focused",
     description: "More booked calls, faster follow-ups, lower operational load."
   }
 ];

@@ -4,6 +4,7 @@ export interface CaseStudy {
   id: string;
   title: string;
   category: string;
+  summary: string;
   problem: string;
   solution: string;
   keyCapabilities: string[];

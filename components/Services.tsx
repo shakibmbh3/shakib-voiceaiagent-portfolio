@@ -16,7 +16,7 @@ export const Services: React.FC = () => {
           {services.map((service, index) => (
             <div 
               key={index}
-              className="group p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:border-emerald-200 hover:shadow-lg hover:shadow-emerald-100/50 transition-all duration-300"
+              className="group p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:border-emerald-200 hover:shadow-lg hover:shadow-emerald-100/50 transition-all duration-300 hover:-translate-y-0.5"
             >
               <div className="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-emerald-600 transition-colors duration-300">
                 <service.icon className="w-6 h-6 text-emerald-600 group-hover:text-white transition-colors duration-300" />
